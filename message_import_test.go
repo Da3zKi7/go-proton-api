@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/Da3zKi7/go-proton-api"
+	"github.com/Da3zKi7/go-proton-api/server"
 	"github.com/ProtonMail/gluon/rfc822"
 	"github.com/bradenaw/juniper/stream"
-	"github.com/henrybear327/go-proton-api"
-	"github.com/henrybear327/go-proton-api/server"
 	"github.com/stretchr/testify/require"
 )
 

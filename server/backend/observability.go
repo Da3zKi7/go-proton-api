@@ -3,7 +3,7 @@ package backend
 import (
 	"time"
 
-	"github.com/henrybear327/go-proton-api"
+	"github.com/Da3zKi7/go-proton-api"
 )
 
 type ObservabilityStatistics struct {

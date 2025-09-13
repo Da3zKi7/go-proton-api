@@ -1,8 +1,8 @@
 package backend
 
 import (
+	"github.com/Da3zKi7/go-proton-api"
 	"github.com/ProtonMail/gluon/rfc822"
-	"github.com/henrybear327/go-proton-api"
 )
 
 type mailSettings struct {

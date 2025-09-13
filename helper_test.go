@@ -6,11 +6,11 @@ import (
 	"runtime"
 	"testing"
 
+	"github.com/Da3zKi7/go-proton-api"
 	"github.com/ProtonMail/gluon/async"
 	"github.com/bradenaw/juniper/iterator"
 	"github.com/bradenaw/juniper/stream"
 	"github.com/google/uuid"
-	"github.com/henrybear327/go-proton-api"
 	"github.com/stretchr/testify/require"
 )
 

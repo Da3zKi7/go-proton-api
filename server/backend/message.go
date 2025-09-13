@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Da3zKi7/go-proton-api"
 	"github.com/ProtonMail/gluon/rfc822"
 	"github.com/bradenaw/juniper/xslices"
 	"github.com/google/uuid"
-	"github.com/henrybear327/go-proton-api"
 	"golang.org/x/exp/slices"
 )
 

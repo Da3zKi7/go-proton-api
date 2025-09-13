@@ -3,9 +3,9 @@ package proton_test
 import (
 	"testing"
 
+	"github.com/Da3zKi7/go-proton-api"
 	"github.com/ProtonMail/gopenpgp/v2/crypto"
 	"github.com/ProtonMail/gopenpgp/v2/helper"
-	"github.com/henrybear327/go-proton-api"
 	"github.com/stretchr/testify/require"
 )
 

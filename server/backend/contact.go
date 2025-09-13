@@ -4,10 +4,10 @@ import (
 	"strconv"
 	"sync/atomic"
 
+	"github.com/Da3zKi7/go-proton-api"
 	"github.com/ProtonMail/gopenpgp/v2/crypto"
 	"github.com/bradenaw/juniper/xslices"
 	"github.com/emersion/go-vcard"
-	"github.com/henrybear327/go-proton-api"
 )
 
 var globalContactID int32

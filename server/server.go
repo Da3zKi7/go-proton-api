@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Da3zKi7/go-proton-api"
+	"github.com/Da3zKi7/go-proton-api/server/backend"
 	"github.com/Masterminds/semver/v3"
 	"github.com/bradenaw/juniper/xslices"
 	"github.com/gin-gonic/gin"
-	"github.com/henrybear327/go-proton-api"
-	"github.com/henrybear327/go-proton-api/server/backend"
 )
 
 type AuthCacher interface {

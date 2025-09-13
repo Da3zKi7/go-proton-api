@@ -16,6 +16,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Da3zKi7/go-proton-api"
+	"github.com/Da3zKi7/go-proton-api/server/backend"
 	"github.com/Masterminds/semver/v3"
 	"github.com/ProtonMail/gluon/async"
 	"github.com/ProtonMail/gluon/rfc822"
@@ -26,8 +28,6 @@ import (
 	"github.com/bradenaw/juniper/xslices"
 	"github.com/emersion/go-vcard"
 	"github.com/google/uuid"
-	"github.com/henrybear327/go-proton-api"
-	"github.com/henrybear327/go-proton-api/server/backend"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"

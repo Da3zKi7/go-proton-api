@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Da3zKi7/go-proton-api"
 	"github.com/ProtonMail/gluon/async"
-	"github.com/henrybear327/go-proton-api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

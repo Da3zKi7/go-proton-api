@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"testing"
 
+	"github.com/Da3zKi7/go-proton-api"
 	"github.com/ProtonMail/gluon/rfc822"
 	"github.com/ProtonMail/gopenpgp/v2/crypto"
 	"github.com/emersion/go-vcard"
-	"github.com/henrybear327/go-proton-api"
 	"github.com/stretchr/testify/require"
 )
 

@@ -1,8 +1,8 @@
 package backend
 
 import (
+	"github.com/Da3zKi7/go-proton-api"
 	"github.com/google/uuid"
-	"github.com/henrybear327/go-proton-api"
 )
 
 type label struct {

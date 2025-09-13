@@ -1,4 +1,4 @@
-module github.com/henrybear327/go-proton-api
+module github.com/Da3zKi7/go-proton-api
 
 go 1.22.0
 

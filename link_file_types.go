@@ -40,13 +40,17 @@ func GetNameHash(name string, hashKey []byte) (string, error) {
 type MoveLinkReq struct {
 	ParentLinkID string
 
-	Name                    string // Encrypted File Name
-	OriginalHash            string // Old Encrypted File Name Hash
-	Hash                    string // Encrypted File Name Hash by using parent's NodeHashKey
-	NodePassphrase          string // The passphrase used to unlock the NodeKey, encrypted by the owning Link/Share keyring.
-	NodePassphraseSignature string // The signature of the NodePassphrase
+	Name         string // Encrypted File Name
+	OriginalHash string // Old Encrypted File Name Hash
+	Hash         string // Encrypted File Name Hash by using parent's NodeHashKey
 
-	SignatureAddress string // Signature email address used to sign passphrase and name
+	NameSignatureEmail string // *** Added
+
+	NodePassphrase string // The passphrase used to unlock the NodeKey, encrypted by the owning Link/Share keyring.
+
+	//Only required for anon nodes
+	/* NodePassphraseSignature string // The signature of the NodePassphrase */
+	/* SignatureAddress string // Signature email address used to sign passphrase and name */ // *** -> SignatureEmail
 }
 
 func (moveLinkReq *MoveLinkReq) SetName(name string, addrKR, nodeKR *crypto.KeyRing) error {
